@@ -1,0 +1,16 @@
+{
+    "name": "shell",
+    "description": "Heroku edition of github.com/erl-andi/shell",
+    "keywords": ["shell", "telegram", "docker", "bot"],
+    "repository": "https://github.com/erl-andi/shell",
+    "stack": "container",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "This is bot auth token, necessary to connect bot to Telegram device."
+      },
+      "Pemilik": {
+        "description": "The chat id which will control the bot. Could be a group or a individual"
+      }
+    }
+  }
+  
